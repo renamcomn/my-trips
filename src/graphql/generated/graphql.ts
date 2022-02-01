@@ -4101,11 +4101,11 @@ export type Get_PlacesQueryVariables = Exact<{
 }>;
 
 
-export type Get_PlacesQuery = { __typename?: 'Query', places: Array<{ __typename?: 'Place', name: string, slug: string, location: { __typename?: 'Location', latitude: number, longitude: number }, description?: { __typename?: 'RichText', html: string } | null, gallery: Array<{ __typename?: 'Asset', url: string, width?: number | null, height?: number | null }> }> };
+export type Get_PlacesQuery = { __typename?: 'Query', places: Array<{ __typename?: 'Place', id: string, name: string, slug: string, location: { __typename?: 'Location', latitude: number, longitude: number }, description?: { __typename?: 'RichText', html: string } | null, gallery: Array<{ __typename?: 'Asset', url: string, width?: number | null, height?: number | null }> }> };
 
 export type Get_Place_By_SlugQueryVariables = Exact<{
   slug: Scalars['String'];
 }>;
 
 
-export type Get_Place_By_SlugQuery = { __typename?: 'Query', place?: { __typename?: 'Place', name: string, slug: string, description?: { __typename?: 'RichText', html: string } | null, location: { __typename?: 'Location', latitude: number, longitude: number }, gallery: Array<{ __typename?: 'Asset', url: string, width?: number | null, height?: number | null }> } | null };
+export type Get_Place_By_SlugQuery = { __typename?: 'Query', place?: { __typename?: 'Place', id: string, name: string, slug: string, description?: { __typename?: 'RichText', html: string } | null, location: { __typename?: 'Location', latitude: number, longitude: number }, gallery: Array<{ __typename?: 'Asset', url: string, width?: number | null, height?: number | null }> } | null };
