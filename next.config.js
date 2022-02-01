@@ -8,6 +8,9 @@ module.exports = withPWA({
     // Enables the styled-components SWC transform
     styledComponents: true
   },
+  images: {
+    domains: ['media.graphcms.com']
+  },
   pwa: {
     dest: 'public',
     disable: !isProd

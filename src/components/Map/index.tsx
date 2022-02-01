@@ -9,7 +9,7 @@ type Place = {
   }
 }
 
-type MapProps = {
+export type MapProps = {
   places?: Place[]
 }
 
