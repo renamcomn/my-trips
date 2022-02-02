@@ -14,7 +14,7 @@ export const Wrapper = styled.div`
 
   &:hover {
     svg {
-      color: var(--highlight);
+      color: var(--link);
     }
   }
 `
