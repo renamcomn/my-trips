@@ -1,8 +1,11 @@
 
-![React Avançado](https://raw.githubusercontent.com/React-Avancado/boilerplate/master/public/img/logo-gh.svg)
+# Projeto - My Trips
+## A simple project to show in a map the places that I went and show more informations and photos when clicked.
 
 This is a [Next.js](https://nextjs.org/) boilerplate to be used in a course called [React Avançado](https://reactavancado.com.br/).
 ![ci](https://github.com/React-Avancado/boilerplate/workflows/ci/badge.svg)
+
+<img src='https://github.com/renamcomn/my-trips/blob/master/public/img/cover.png' />
 ## What is inside?
 
 This project uses lot of stuff as:
@@ -12,10 +15,11 @@ This project uses lot of stuff as:
 - [Styled Components](https://styled-components.com/)
 - [Jest](https://jestjs.io/)
 - [React Testing Library](https://testing-library.com/docs/react-testing-library/intro)
-- [Storybook](https://storybook.js.org/)
+- [GraphCMS](https://graphcms.com/)
 - [Eslint](https://eslint.org/)
 - [Prettier](https://prettier.io/)
 - [Husky](https://github.com/typicode/husky)
+- [NextSEO](https://github.com/garmeeh/next-seo)
 
 ## Getting Started
 
